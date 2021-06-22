@@ -2,10 +2,12 @@
 *{
   padding: 0;
   margin: 0;
+  box-sizing: border-box;
 }
 body{
   width: 100vw;
   height: 100vh;
+  padding-bottom: 45px;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
@@ -36,14 +38,18 @@ p{
 
 a {
   text-decoration: none;
-}
-
-.button {
-  background-color: orangered;
   padding: 15px 20px;
   border-radius: 5px;
   font-size: 24px;
   box-shadow: 2px 2px black;
   color: white;
+}
+
+.explore {
+  background-color: orangered;
+}
+
+.more {
+  background-color: olive;
 }
 
